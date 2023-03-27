@@ -6,13 +6,7 @@
   top: 0%;
   background: linear-gradient(83.33deg, #7733CE 0%, #FF4351 100%);
 }
-.logo{
-  position: absolute;
+
+.header div img{
   width: 10%;
-  height: 2%;
-  left: 4%;
-  right: 0.1%;
-  top: 2%;
-  bottom: 0.06%;
-  color: #FFFFFF;
 }
