@@ -444,7 +444,7 @@ function App() {
   );
 }
 
-{/*addEventListener('load', () => {
+/*addEventListener('load', () => {
   var rectangle = document.getElementById('rectangle');
   var lastScrollPosition = 0;
   
@@ -462,6 +462,6 @@ function App() {
   
   lastScrollPosition = currentScrollPosition;
   })
-  }, false);*/}
+  }, false);*/
 
 export default App;
