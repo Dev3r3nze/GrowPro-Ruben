@@ -46,6 +46,8 @@
 }
 
 .logo {
+  width: 146px;
+  height: 21px;
   left: 15%;
   right: 0.01%;
   top: 20%;
@@ -62,9 +64,14 @@
     url("../src/components/imagenes/header\ \(2\).png");
   flex-direction: column;
   justify-content: center;
-
+  background-repeat: no-repeat;
 }
-
+.google img {
+  vertical-align: baseline;
+}
+.G1{
+  transform: translateY(7px);
+}
 .textHeader {
   width: 100%;
   font-family: "Poppins";
@@ -76,35 +83,6 @@
   color: #ffffff;
   display: flex;
   justify-content: center;
-}
-
-@media (max-width: 800px) {
-  .textHeader {
-    font-size: 30px;
-    line-height: 45px;
-  }
-  .infoHeader{
-    font-size: 16px;
-  }
-  #rectangulo{
-    align-self: center;
-    margin-right: 0;
-    width: 90%;
-  }
-  #infoCard{
-    display: none;
-  }
-  .img{
-
-  }
- 
-}
-
-@media (min-width:800px){
-  #infoCard{
-    display: block;
-  }
-  
 }
 
 .sueños {
@@ -148,7 +126,6 @@
 
 .valoracion {
   width: 95%;
-  height: 10%;
   left: 25%;
   top: 70%;
   font-family: "Poppins";
@@ -199,8 +176,6 @@
   color: #2f343d;
 }
 
-
-
 .text-intro {
   width: 600px;
   top: 20%;
@@ -243,7 +218,6 @@
   padding: 40px 30px;
   gap: 24px;
   width: 500px;
-  height: 500px;
   left: 0px;
   margin-top: 100px;
   background: #ffffff;
@@ -253,7 +227,7 @@
 .select-form {
   background-image: url(../src/components/imagenes/flecha3.png);
   background-repeat: no-repeat;
-  background-position: right 35px bottom 12px;
+  background-position: right 35px bottom 12px; 
 }
 
 .form-correo {
@@ -264,6 +238,12 @@
 }
 .telefonoInput {
   margin-top: 10px;
+}
+#Inputelefono{
+  transform: translateY(17px);
+}
+#Inputtelefono2{
+  transform: translateY(-7px);
 }
 .form-nacionalidad {
   margin-top: 10px;
@@ -371,8 +351,6 @@
 }
 
 .pregunta {
-  width: 461px;
-  height: 53px;
   margin-top: 70px;
   margin-bottom: 60px;
   font-family: "Poppins";
@@ -518,6 +496,7 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
+  font-size: 16px;
 }
 
 .dondeEstudiar {
@@ -564,6 +543,11 @@ body {
   background: white;
   border-radius: 0 0 20px 20px;
   padding-bottom: 15px;
+}
+
+.tarjetaPaises {
+  display: flex;
+  flex-direction: column;
 }
 
 .verMas {
@@ -666,7 +650,6 @@ body {
 
 .piedepagina {
   width: 100%;
-  overflow: hidden;
   background: rgba(217, 217, 217, 0.3);
 }
 #masInfoGrower {
